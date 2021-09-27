@@ -1,0 +1,24 @@
+{
+  "rows": [
+    {
+      "run": "yes",
+      "userId": "standard_user",
+      "password": "secret_sauce"
+    },
+    {
+      "run": "yes",
+      "userId": "problem_user",
+      "password": "secret_sauce"
+    },
+    {
+      "run": "yes",
+      "userId": "performance_glitch_user",
+      "password": "secret_sauce"
+    },
+    {
+      "run": "no",
+      "userId": "locked_out_user",
+      "password": "secret_sauce"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "cypress-uitesting",
+  "version": "1.0.0",
+  "description": "Test Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "delete:reportFolder": "rm -rf mochawesome-report/",
+    "merge:reports": "mochawesome-merge mochawesome-report/*.json > cypress-combined-report.json",
+    "create:html:report": "npm run merge:reports && marge --reportDir TestReport cypress-combined-report.json",
+    "cypress-open-regression": "cypress open --config integrationFolder=cypress/integration/regressionTests",
+    "test:all:cli": "npm run delete:reportFolder && cypress run",
+    "test:regression:cli": "npm run delete:reportFolder && cypress run --spec cypress/integration/regressionTests/*.js",
+    "cypress-run": "npm run test:regression:cli && npm run create:html:report"
+  },
+  "author": "Nisha Vekariya",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^8.4.1",
+    "jsonpath": "^1.1.1",
+    "xlsx-to-json": "^0.3.0"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.1",
+    "mochawesome": "^6.2.2",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^5.2.0",
+    "node-xlsx": "^0.17.2"
+  }
+}
