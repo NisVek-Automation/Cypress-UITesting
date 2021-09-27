@@ -60,14 +60,13 @@ All set!!!
 ## 👩‍💻 How to Start <a name = "getting_started"></a>
 
 - Create folder where you want to clone the repostory
-- Creates the package.json file, run command: `npm init`
+- Create the package.json file, run command: `npm init`
 - Install the Cypress, run command: `npm install cypress --save-dev`
-- Clone the project
 - Clone the project
 - Install all the dependencies, run command:  `npm i`
 - There are a lot dependencies that are not updated frequently in parallel with cypress. So while installing if you are seeing conflicts use`npm i --force`.
-- To run and create the HTML report in cli, run comman: `npm run test:all:cli`
-- To run and create the HTML report for only Regression test in cli, run command: `npm run cypress-run`
+- To run and create the HTML report in cli, run command: `npm run test:all:cli`
+- To run and create the HTML report for only Regression tests in cli, run command: `npm run cypress-run`
 
 ---
 
