@@ -14,6 +14,7 @@ Don't forget to give this project a ⭐
 - [Features](#features)
 - [Technologies](#technologies)
 - [Installation](#installation)
+- [Framework Structure](#framework-structure)
 - [How to Start](#getting_started)
 - [Contributing](#contributing)
 - [Authors](#author)
@@ -70,6 +71,10 @@ All set!!!
 
 ---
 
+## 🏗️ Framework Structure <a name = "framework-structure"></a>
+
+![Framework](https://github.com/NisVek-Automation/NisVek-Automation/blob/main/readmeResources/Cypress-folder-structure.png.webp)
+---
 
 ## 💬 Contributing <a name = "contributing"></a>
 
